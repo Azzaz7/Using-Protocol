@@ -12,6 +12,8 @@
 		D68822A320584E15003A6D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68822A220584E15003A6D22 /* ViewController.m */; };
 		D68822A520584E15003A6D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D68822A420584E15003A6D22 /* Assets.xcassets */; };
 		D68822A820584E15003A6D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D68822A620584E15003A6D22 /* Main.storyboard */; };
+		D68822B520584EFF003A6D22 /* Tringle.m in Sources */ = {isa = PBXBuildFile; fileRef = D68822B420584EFF003A6D22 /* Tringle.m */; };
+		D68822B8205850AB003A6D22 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = D68822B7205850AB003A6D22 /* Rectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,11 @@
 		D68822A420584E15003A6D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D68822A720584E15003A6D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D68822A920584E15003A6D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68822AF20584E3C003A6D22 /* Pro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pro.h; sourceTree = "<group>"; };
+		D68822B320584EFF003A6D22 /* Tringle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tringle.h; sourceTree = "<group>"; };
+		D68822B420584EFF003A6D22 /* Tringle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tringle.m; sourceTree = "<group>"; };
+		D68822B6205850AB003A6D22 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		D68822B7205850AB003A6D22 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +47,12 @@
 		D688228F20584E15003A6D22 = {
 			isa = PBXGroup;
 			children = (
+				D688229E20584E15003A6D22 /* Supporting Files */,
+				D68822AF20584E3C003A6D22 /* Pro.h */,
+				D68822B6205850AB003A6D22 /* Rectangle.h */,
+				D68822B7205850AB003A6D22 /* Rectangle.m */,
+				D68822B320584EFF003A6D22 /* Tringle.h */,
+				D68822B420584EFF003A6D22 /* Tringle.m */,
 				D688229A20584E15003A6D22 /* Protocol_ass3 */,
 				D688229920584E15003A6D22 /* Products */,
 			);
@@ -63,7 +76,6 @@
 				D68822A420584E15003A6D22 /* Assets.xcassets */,
 				D68822A620584E15003A6D22 /* Main.storyboard */,
 				D68822A920584E15003A6D22 /* Info.plist */,
-				D688229E20584E15003A6D22 /* Supporting Files */,
 			);
 			path = Protocol_ass3;
 			sourceTree = "<group>";
@@ -74,6 +86,7 @@
 				D688229F20584E15003A6D22 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Protocol_ass3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +161,9 @@
 			files = (
 				D68822A320584E15003A6D22 /* ViewController.m in Sources */,
 				D68822A020584E15003A6D22 /* main.m in Sources */,
+				D68822B520584EFF003A6D22 /* Tringle.m in Sources */,
 				D688229D20584E15003A6D22 /* AppDelegate.m in Sources */,
+				D68822B8205850AB003A6D22 /* Rectangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
